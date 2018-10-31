@@ -1,6 +1,6 @@
 import React from 'react'
 
-const App = () => {
+const App = (): React$Element<'div'> => {
   const title = 'React Minimal Setup'
 
   return (

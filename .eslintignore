@@ -1,2 +1,5 @@
 webpack.config.js
 .eslintrc
+.flowconfig
+.prettierrc
+package.json
