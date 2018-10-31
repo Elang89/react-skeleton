@@ -4,11 +4,10 @@
 .*\webpack\.config\.js
 
 [include]
-./src
+
 
 [libs]
 flow-typed
-
 
 [lints]
 
