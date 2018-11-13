@@ -1,13 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-const App = (): React$Element<'div'> => {
-  const title = 'React Minimal Setup'
+const App = (): React.Element<'div'> => <div className="App" />;
 
-  return (
-    <div className="App">
-      <header className="App-header">{title}</header>
-    </div>
-  )
-}
-
-export default App
+export default App;

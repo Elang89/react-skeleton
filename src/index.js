@@ -1,9 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 
-const root = document.getElementById('root')
+import '../public/index.scss';
+
+const root = document.getElementById('root');
 
 if (root != null) {
-  ReactDOM.render(<App />, root)
+  ReactDOM.render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>,
+    root
+  );
 }
